@@ -1,0 +1,6 @@
+default['pandoc']['osx_install_method'] = "dmg"
+default['pandoc']['dmg_version'] = "1.8.2.1"
+default['pandoc']['dmg_url'] = "http://pandoc.googlecode.com/files/pandoc-#{node['pandoc']['dmg_version']}.dmg"
+default['pandoc']['exe_url'] = "http://pandoc.googlecode.com/files/pandoc-1.8.2-setup.exe"
+default['pandoc']['dmg_checksum'] = "fcfdb6a33e68be0cf219f5c0b3184b7241479dce1319f796f5220069cdc09fb6"
+default['pandoc']['exe_checksum'] = "cac4181d5cbe8dacea455c766ade0d78edd041125f0a4013ee957fdda5c6d5ed"
