@@ -53,18 +53,6 @@ Usage
 
 Add `recipe[pandoc]` to the node's run list.
 
-Changes
-=======
-
-## v0.5.0:
-
-* Add install method attribute for osx so pandoc can be installed by
-  homebrew, too
-
-## v0.0.1:
-
-* Initial release
-
 Roadmap
 -------
 
@@ -74,9 +62,8 @@ newer release may happen at some point.
 License and Author
 ==================
 
-Author:: Joshua Timberman <cookbooks@housepub.org>
-
-Copyright:: 2011, Joshua Timberman
+- Author:: Joshua Timberman <cookbooks@housepub.org>
+- Copyright:: 2011, Joshua Timberman
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
